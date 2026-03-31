@@ -5,6 +5,7 @@ pip install -r requirements.txt
 python main.python
 # 接口调用
 接口url：http://127.0.0.1:8000
+
 Request template：
 
 POST /predict HTTP/1.1
