@@ -9,8 +9,11 @@ python main.python
 Request template：
 
 POST /predict HTTP/1.1
+
 Host: 127.0.0.1:8000
+
 Content-Type: application/json
+
 
 {
   "image": "<@BASE64><@IMG_RAW></@IMG_RAW></@BASE64>"
